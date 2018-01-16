@@ -7,8 +7,12 @@ A basic example about how to implement [http basic access authentification](http
 - SSL must be configured in order to be **'secure'**.
 - Microsoft considers asmx as **legacy technology**. XML Web services and XML Web service clients should now be created using [Windows Communication Foundation (WCF)](https://docs.microsoft.com/en-us/dotnet/framework/wcf/index) but fortunately, **this already works with WCF**!
 
-
-### Example of calling code
+### Steps on the service.
+ 1. [Create your own authentification module by implementing IHttpModule](https://github.com/kmteam/asmxBasicAuthDemo/commit/6bd7aacac24df3d5bc4f1f8118575d8c7b8afcb5)
+ 2. [Add auth module to app.config file](https://github.com/kmteam/asmxBasicAuthDemo/commit/1dc7c0803859c8517dbac50ad9612f153990b149)
+ 3. That's it!
+ 
+### Example of client code
 
 ```
 var client = new ServiceReference1.ServiceSoapClient();
