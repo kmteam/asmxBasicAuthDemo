@@ -22,6 +22,11 @@ public class Service : System.Web.Services.WebService
         return "Hello World";
     }
 
-	
-    
+		[WebMethod]
+		public int Add(int n1, int n2)
+		{
+			return n1 + n2;
+		}
+
+
 }
