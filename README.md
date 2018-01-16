@@ -5,7 +5,7 @@ A basic example about how to implement [http basic access authentification](http
 
 ### Prior notice
 - SSL must be configured in order to be **'secure'**.
-- Microsoft considers asmx as **legacy technology**. XML Web services and XML Web service clients should now be created using [Windows Communication Foundation (WCF)](https://docs.microsoft.com/en-us/dotnet/framework/wcf/index)
+- Microsoft considers asmx as **legacy technology**. XML Web services and XML Web service clients should now be created using [Windows Communication Foundation (WCF)](https://docs.microsoft.com/en-us/dotnet/framework/wcf/index) but fortunately, **this already works with WCF**!
 
 
 ### Example of calling code
